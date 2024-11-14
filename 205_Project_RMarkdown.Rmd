@@ -5,4 +5,17 @@ date: "`r Sys.Date()`"
 output: html_document
 ---
 
-print("Hey Guys!")
+```{r}
+library(tidyverse)
+library(dslabs)
+library(readr)
+
+getwd()
+list.files()
+setwd("/Users/gabriellehoots/Desktop/Fall 2024/MATH 205 - Intro to Data Science/GitHub/205_Final_Project_Group1/Project")
+getwd()
+
+dat = read_csv("Netflix_Dataset.csv")
+
+```
+
