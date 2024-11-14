@@ -1,0 +1,8 @@
+---
+title: "205_Final_Project_Group1"
+author: "Gabbie Hoots"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+print("Hey Guys!")
